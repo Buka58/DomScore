@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+  @keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+body{
+  /* background-image: linear-gradient(black,grey);
+  background-repeat: no-repeat; */
+background-color: rgb(20, 19, 19);
+color: white;
+font-family: Poppins;
+width: 100%;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  font-size: 4vh;
+
+  display: flex;
+  background-color:  rgb(20, 19, 19) ;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar ul{
+  margin-right: 50px;
+}
+.navbar ul li{
+  display: inline-block;
+  font-size: smaller;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#name{
+  color: rgb(100, 245, 17)
+}
+#transitionG:hover{
+  color:  rgb(100, 245, 17);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.dropdown{
+  position: relative;
+  display:inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: rgb(51, 47, 47);
+  width: 150px;
+  padding: 12px 16px;
+z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/* navbar ends here */
+
+.welcome{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+margin-top: 50px;
+min-height: 100vh;
+width: 100%;
+background-image: url("./images/bellignham.jpg");
+background-position: center;
+background-size: cover;
+
+}
+.welcometext{
+  font-size: 35px;
+  font-weight: bolder;  
+  margin-left: 20px;
+}
+
+.welcometext p{
+  font-size: 25px;
+}
+ 
+
+.about{
+  margin-top: 20px;
+  
+
+}
+.slides{
+  height: 300px;
+  width: 300px;
+}
+.mySlides{
+  object-fit: contain;
+}
+
+.abtText{
+  height: 200px;
+  width: 400px;
+  margin-left: 38px;
+}
+.about p{
+  font-size: 20px;
+
+}
+.about h1{
+  margin-left: 45vh;
+  margin-bottom: 10px;
+  
+  align-self: flex-start;
+  font-size: 40px;
+  justify-self: flex-start;
+  text-decoration: underline;
+  text-decoration-color:  rgb(100, 245, 17);
+  animation: fadeIn 5s;
+  animation-iteration-count: infinite;
+}
+
+.abtContent{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+}
