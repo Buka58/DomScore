@@ -1,0 +1,36 @@
+/* body{
+    color: white;
+} */
+
+.mainHeader {
+  margin-top: 70px;
+  margin-left: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(100, 245, 17);
+}
+
+.transferCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: larger;
+}
+.cards {
+  background-color: rgb(24, 23, 23);
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cards:hover {
+  height: 450px;
+  width: 450px;
+}

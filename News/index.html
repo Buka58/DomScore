@@ -1,71 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DomScore News</title>
-    <link rel="stylesheet" href="../style.css"/>
-    <link rel="stylesheet" href="./news.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./news.css" />
+  </head>
+  <body>
     <section class="navbar">
-        <div class="navtext">
-            <span>Dom</span>
-            <span id="name">Score</span>
-        </div>
-      
-<ul>
-    <li><a href="#" id="transitionG">Home</a></li>
-    <li>
-<div class="dropdown">
-    <span id="transitionG">Latest</span>
-    <div class="dropdown-content">
-        <ul>
-            <li><a href="./News/index.html"id="transitionG">News</a></li>
-            <li><a href="#"id="transitionG">Transfers</a></li>
-            <li><a href="#"id="transitionG">Community</a></li>
-        </ul>
-    </div>
-</div>
-    </li>
-    <li><a href="#"id="transitionG">Scores</a></li>
-    <li><a href="#"id="transitionG">Highlights</a></li>
-</ul>
+      <div class="navtext">
+        <a href="../index.html">
+          <span>Dom</span>
+          <span id="name">Score</span>
+        </a>
+      </div>
+
+      <ul>
+        <li>
+          <div class="dropdown">
+            <span id="transitionG">Latest</span>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="./News/index.html" id="transitionG">News</a></li>
+                <li>
+                  <a href="../transfer/transfer.html" id="transitionG"
+                    >Transfers</a
+                  >
+                </li>
+                <li><a href="#" id="transitionG">Community</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="#" id="transitionG">Scores</a></li>
+        <li><a href="#" id="transitionG">Highlights</a></li>
+      </ul>
     </section>
 
     <section class="newsWelc">
-        <img src="../images/atletico-madrid-press-conference-and-training-session-scaled.jpg"
-        height="400px" width="500px"/>
-<div class="topStories">
-    <h1>Top Stories</h1>
+      <div class="slides">
+        <img
+          src="../images/haaland.jpeg"
+          class="mySlides"
+          height="500px"
+          width="100%"
+        />
+        <img
+          src="../images/klopp.jpeg"
+          class="mySlides"
+          height="500px"
+          width="100%"
+        />
+        <img
+          src="../images/messi trophy.jpg"
+          class="mySlides"
+          height="500px"
+          width="100%"
+        />
+      </div>
+      <div class="abtText">
+        <p>
+          We focus mainly on the English and Spanish top flight league but also
+          write articles and sotries on their cup competitions, big player
+          transfers and also on football's hottest topics like Messi in MLS and
+          the Saudi Pro League.
+        </p>
+      </div>
+      <div class="topStories">
+        <h1>Top Stories</h1>
 
-    <div class="myCards">
-        <div class="cards" id="1">
-            <a href="#">
-                <img src="../images/klopp.jpeg" alt="Klopp beat newcastle" height="50%" width="100%"/>
-            </a>
+        <div class="myCards">
+          <div class="cards" id="1">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fSePc.img?w=768&h=432&m=6"
+              alt="Klopp beat newcastle"
+              height="75%"
+              width="85%"
+            />
             <p>Liverpool beat Newcastle away</p>
+            
+            <a href="https://www.skysports.com/football/newcastle-united-vs-liverpool/report/482619"><button>See More</button></a>
+          </div>
+          <div class="cards" id="2">
+            <img
+              src="https://www.realmadrid.com/img/sc_640px/gettyimages-1638776893_20230826121632.jpg"
+              alt=""
+              height="75%"
+              width="85%"
+            />
+            <p>Bellingham scores again !!!</p>
+            <a href="https://www.bbc.com/sport/football/66623788"><button>See More</button></a>
+          </div>
+          <div class="cards" id="3">
+            <img
+              src="https://talksport.com/wp-content/uploads/sites/5/2023/08/lamine-yamal-fc-barcelona-looks-840620172.jpg?w=620"
+              alt=""
+              height="75%"
+              width="85%"
+            />
+            <p>Barcelona come out on top in 7-goal thriller</p>
+            <a href="https://www.bbc.co.uk/sport/football/66635282"><button>See More</button></a>
+          </div>
+          <div class="cards" id="4">
+            <img
+              src="https://www.telegraph.co.uk/content/dam/football/2023/08/27/TELEMMGLPICT000347041784_16931480519360_trans_NvBQzQNjv4BqlnoKbsnqupgsmdP1L78oDdf11FLKtqwYaxK652uKeQE.jpeg?imwidth=960"
+              alt=""
+              height="75%"
+              width="85%"
+            />
+            <p>The Treble Winners beat Sheffield </p>
+            <a href="https://www.bbc.com/sport/football/66561746"><button>See More</button></a>
+          </div>
         </div>
-        <div class="cards" id="2">
-            <a href="#">
-                <img src="" alt=""/>
-            </a>
-        </div>
-        <div class="cards" id="3">
-            <a href="#">
-                <img src="" alt=""/>
-            </a>
-        </div>
-        <div class="cards" id="4">
-            <a href="#">
-                <img src="" alt=""/>
-            </a>
-        </div>
-        
-    </div>
-   
-    
-</div>
+      </div>
     </section>
-</body>
+    <script src="../script.js"></script>
+  </body>
 </html>
